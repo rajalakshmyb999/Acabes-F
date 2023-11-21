@@ -28,7 +28,7 @@ public class AccountController {
 
     @GetMapping("/SelectAll")
     public String SelectAll() {
-        return "SelectAll";
+        return "SelectAll s";
     }
 
     @GetMapping("/Select")
