@@ -1,8 +1,8 @@
 package com.exam.cruds.Controller;
 
 
-import com.exam.cruds.Model.UserData;
-import com.exam.cruds.Repository.UsersRepo;
+import com.exam.cruds.Model.AccountModel;
+import com.exam.cruds.Repository.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,10 +17,10 @@ import java.util.List;
 public class AccountController {
 
     @Autowired
-    private final UsersRepo repo = null;
+    private final AccountRepository repo = null;
 
     @GetMapping("/test")
-    public List<UserData> test() {
+    public List<AccountModel> test() {
 
         return repo.findAll();
 
