@@ -3,7 +3,7 @@ package com.exam.cruds.Model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document("account")
+@Document("Account")
 public class AccountModel {
     private String accountid;
     private String name;
