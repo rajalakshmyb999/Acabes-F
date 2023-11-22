@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /apollo/
+  port: 8080
+
+#spring:
+#  data:
+#    mongodb:
+#      host: host.docker.internal
+#      port: 27017
